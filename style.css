@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+li {
+    list-style: none; /*serve para tirar as bolinhas do item*/
+    display: inline;
+    margin-right: 40px;
+}
+
+.seu-nome{
+    font-family: arial;
+    font-weight: bold;
+}
+
+.cabecalho {
+    background-color: #8C52FF;
+    font-family: arial;
+    font-weight: bold;
+    height:104px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.lista-menu li>a {
+    color: #ffffff;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.perfil {
+    background-color: #ffffff;
+    width: 100%;
+    height: 500px; 
+    text-align: center;
+    max-width: 100%;
+    color: #8C52FF;
+}
+
+.minha-descricao {
+    color:#828282;
+    font-size: 18px;
+    font-family: arial;
+    margin-left: auto;
+    margin-right:auto;
+    width: 480px;
+    margin-top: 18px;
+    max-width: 100%;
+    text-align:center
+}
+
+img {
+    margin-top: 48px;
+    margin-bottom: 26px;
+}
+
+.profissao {
+    color: #787878;
+    text-align: center; 
+    font-size: 19px;
+    font-family: arial;
+}
+
+.formacao {
+    background-color: #faf6f6;
+    height: 620px;
+    padding-top: 30px;
+    text-align: center;
+    font-family: arial;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center; 
+    
+}
+
+.artigo-formacao {
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo-secao {
+    font-size: 24px;
+    color: #8C52FF;
+    margin-bottom: 55px ;
+    margin-left: -900px;
+    font-family: arial;
+}
+
+.lista-formacao {
+    display: flex;
+    width: 650px;
+    height: 209px;
+    padding: 17px 20px;
+    margin-top: -35px;
+    flex-direction: column;
+    text-align:justify;
+    
+}
+
+.titulo-formacao {
+    font-size: 16px;
+    color: #828282;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-family: arial;
+}
+
+.link-formacao {
+    color: #8C52FF;
+    font-size: 14px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    text-decoration: none;
+}
+
+.descricao-formacao {
+    font-size: 16px;
+    margin-top: 10px;
+    color: #000000;
+    margin-bottom: 10px;
+    align-content: center;
+    font-family: arial; 
+}
+
+.rodape-site{
+    background-color: #8C52FF;
+    display: flex;
+    align-items: center;
+    height: 300px;
+    position: static;
+    width: 100%;
+
+}
+
+.lista-rodape li{
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+
+.container-rodape {
+    margin-left: 60px;
+}
+
+.meus-projetos{
+    background-color: #ffffff;
+    height: 550px;
+    padding-top: 30px;
+    margin-bottom: 120px;
+    font-family: arial;
+    flex-direction: column;
+}
+
+.titulo-projetos {
+    color: #8C52FF;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 55px;
+    margin-inline-start: -850px;
+    font-family: arial;
+
+}
+
+.lista-meus-projetos {
+    display: flex;
+    width: 650px;
+    height: 209px;
+    padding: 17px 20px;
+    margin-top: -35px;
+    flex-direction: column;
+    text-align:justify;
+}
+
+.link-rodape {
+    color: #ffffff;
+    margin-left: 10px;
+    text-decoration: none;
+    font-family: arial;
+}
+
+.projeto-tipo{
+    font-size: 15px;
+    margin-bottom: 5px;
+    font-family: arial;
+}
+    
+.titulo-meus-projetos{
+    font-size: 16px;
+    color: #828282;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-family: arial;
+}
+
+.link-projeto{
+    color: #8C52FF;
+    font-size: 14px;
+    margin-top: 5px;
+
+}
+
+.descrição-projeto{
+    font-size: 16px;
+    color: #000000;
+    align-content: center;
+    font-family: arial;
+}
+
+li p {
+    margin-bottom: 10px;
+}
+
